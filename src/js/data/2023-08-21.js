@@ -3,13 +3,13 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by blah blah ignore this I'm just keeping this here in case",
+    name: "Filter by whatever",
       key: "game",
       tooltip: "Check this to restrict to certain games",
       checked: false,
       sub: [
-        { name: "Don't click", key: "beep" },
-        { name: "You bitch", key: "boop" }
+        { name: "Interrobang", key: "anti" },
+        { name: "NaNoWriMo", key: "nano" }
       ]
     }
   ];
@@ -74,6 +74,33 @@ dataSet[dataSetVersion].options = [
       img: "bantav2.png",
       opts: {
         game: ["dgs2"],
+        prof: [],
+        role: []
+      }
+    },
+    {
+      name: "Erayl Vrynath",
+      img: "fire.png",
+      opts: {
+        game: ["nano"],
+        prof: [],
+        role: []
+      }
+    },
+    {
+      name: "Satza Renak",
+      img: "arm.jpeg",
+      opts: {
+        game: ["nano"],
+        prof: [],
+        role: []
+      }
+    },
+    {
+      name: "Coa Lastnamehere",
+      img: "shark.jpeg",
+      opts: {
+        game: ["nano"],
         prof: [],
         role: []
       }
