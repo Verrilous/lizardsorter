@@ -3,8 +3,8 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by whatever",
-      key: "game",
+    name: "Filter out characters",
+      key: "erp",
       tooltip: "Check this to restrict to certain games",
       checked: false,
       sub: [
@@ -19,99 +19,77 @@ dataSet[dataSetVersion].options = [
       name: "Hetzl Garr",
       img: "hetzav.png",
       opts: {
-        game: [ "aa1", "aa2", "aa3", "aa4", "aa5", "aa6", "vs"],
-        prof: ["atto"],
-        role: ["def"]
+        erp: [ "anti"]
       }
     },
     {
       name: "Lusai Dzanagh",
       img: "lusav.png",
       opts: {
-        game: [ "aa1", "aa3", "aai1", "aai2", "aa6"],
-        prof: [],
-        role: ["def"]
+        erp: [ "anti"]
       }
     },
     {
       name: "Fayn Krysolt",
       img: "faynav3.png",
       opts: {
-        game: [ "aa1", "aa2", "aa3"],
-        prof: ["atto", "assi"],
-        role: ["vic"]
+        erp: [ "anti"]
       }
     },
     {
       name: "Lutzyn Kresajh",
       img: "lutzav.png",
       opts: {
-        game: [ "aa1", "aa2", "aa3", "aai1", "aa4", "aa5", "aa6"],
-        prof: ["jud"],
-        role: []
+        erp: [ "anti"]
       }
     },
     {
       name: "Duemis",
       img: "dueav2.png",
       opts: {
-        game: ["dgs2"],
-        prof: [],
-        role: []
+        erp: [ "anti"]
       }
     },
     {
       name: "Skalhareth",
       img: "skalav.png",
       opts: {
-        game: ["dgs2"],
-        prof: [],
-        role: []
+        erp: [ "anti"]
       }
     },
     {
       name: "Bantzerash",
       img: "bantav2.png",
       opts: {
-        game: ["dgs2"],
-        prof: [],
-        role: []
+        erp: [ "anti"]
       }
     },
     {
       name: "Erayl Vrynath",
       img: "fire.png",
       opts: {
-        game: ["nano"],
-        prof: [],
-        role: []
+        game: ["nano"]
       }
     },
     {
       name: "Satza Renak",
       img: "arm.jpeg",
       opts: {
-        game: ["nano"],
-        prof: [],
-        role: []
+        game: ["nano"]
       }
     },
     {
       name: "Coa Lastnamehere",
       img: "shark.jpeg",
       opts: {
-        game: ["nano"],
-        prof: [],
-        role: []
+        game: ["nano"]
       }
     },
     {
       name: "Serakhruhn",
       img: "serav.png",
       opts: {
-        game: ["dgs2"],
-        prof: [],
-        role: []
+        erp: [ "anti"]
       }
     }
   ]
