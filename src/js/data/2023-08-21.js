@@ -3,49 +3,21 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
+    name: "Filter by blah blah ignore this I'm just keeping this here in case",
       key: "game",
       tooltip: "Check this to restrict to certain games",
       checked: false,
       sub: [
-        { name: "Phoenix Wright: Ace Attorney", key: "aa1" },
-        { name: "The Great Ace Attorney 2: Resolve", key: "dgs2" }
+        { name: "Don't click", key: "beep" },
+        { name: "You bitch", key: "boop" }
       ]
-    },
-    {
-      name: "Filter by Profession",
-      key: "prof",
-      tooltip: "Check this to restrict to characters to a certain profession",
-      checked: false,
-      sub: [ { name: "Defense attorneys", key: "atto" }, 
-             { name: "Prosecutors", key: "pros" }, 
-             { name: "Assistants", key: "assi" }, 
-             { name: "Detectives", key: "det" }, 
-             { name: "Judges", key: "jud"}
-      ]
-    },
-    {
-      name: "Filter by Role",
-      key: "role",
-      tooltip: "Check this to restrict to characters to a role in the story. BEWARE OF SPOILERS!",
-      checked: false,
-      sub: [ { name: "Culprits", key: "cul" }, 
-             { name: "Victims", key: "vic" }, 
-             { name: "Defendants", key: "def" }
-      ]
-    },
-    {
-      name: "Remove animals",
-      key: "ani",
-      tooltip: "Check this if you don't want animals to be listed",
-      checked: false
     }
   ];
   
   dataSet[dataSetVersion].characterData = [
     {
       name: "Hetzl Garr",
-      img: "hetzlav.png",
+      img: "hetzav.png",
       opts: {
         game: [ "aa1", "aa2", "aa3", "aa4", "aa5", "aa6", "vs"],
         prof: ["atto"],
