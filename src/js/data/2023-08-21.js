@@ -5,7 +5,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter out characters",
       key: "erp",
-      tooltip: "Check this to restrict to certain games",
+      tooltip: "Check this to restrict stuff",
       checked: false,
       sub: [
         { name: "Interrobang", key: "anti" },
