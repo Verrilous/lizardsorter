@@ -9,7 +9,8 @@ dataSet[dataSetVersion].options = [
       checked: false,
       sub: [
         { name: "Interrobang", key: "anti" },
-        { name: "NaNoWriMo", key: "nano" }
+        { name: "NaNoWriMo", key: "nano" },
+        { name: "dndxuro", key: "dnd" }
       ]
     }
   ];
@@ -83,6 +84,20 @@ dataSet[dataSetVersion].options = [
       img: "shark.jpeg",
       opts: {
         game: ["nano"]
+      }
+    },
+    {
+      name: "Solace",
+      img: "solaceav.png",
+      opts: {
+        game: ["dnd"]
+      }
+    },
+    {
+      name: "HAS-IV",
+      img: "hasivav.png",
+      opts: {
+        game: ["dnd"]
       }
     },
     {
